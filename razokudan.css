@@ -1,0 +1,40 @@
+html {
+      font-size: 100%;
+}
+
+body {
+      font-family: "Bitstream Charter", serif;
+
+}
+h1 a {
+      text-decoration: none;
+      color: limegreen;
+}
+
+a {
+      text-decoration: none;
+      color: red;
+}
+
+h1 {
+      font-family: Laksaman, sans-serif;
+      text-transform: uppercase;
+      font-size: 300%;
+      text-align: center;
+      color: limegreen;
+      letter-spacing: -2px;
+      border-top: 10px solid gold;
+      border-bottom: 10px solid gold;
+}
+
+h2, h3, h4, h5, h6, footer{
+      font-family: Garuda, sans-serif;
+
+}
+footer {
+      text-align: center;
+      border-top: 3px solid limegreen;
+      
+}
+address {color: red;
+}
