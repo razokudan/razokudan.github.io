@@ -14,7 +14,7 @@ main {
 }
 h1 a {
       text-decoration: none;
-      color: darkgreen;
+      color: green;
 }
 
 a, address{
@@ -28,7 +28,7 @@ h1 {
       text-transform: uppercase;
       font-size: 300%;
       text-align: center;
-      color: darkgreen;
+      color: green;
       letter-spacing: -2px;
       border-top: 10px solid gold;
       border-bottom: 10px solid gold;
@@ -44,6 +44,7 @@ footer {
       text-align: center;
       border-top: 3px solid darkgreen;
       margin-top: 25px;
+      
 }     
 dfn {
       font-style: normal;
@@ -55,9 +56,15 @@ table, th, td {
 th {
       color: darkgreen;
 }
+li {
+      list-style-type: none;
+}
 mark {
       background: lightblue;
-      
+    
+}
+img {
+      border: 3px solid teal;
 }
 .pos {
       color: green;
@@ -79,7 +86,7 @@ mark {
 }
 
 .box {
-      border: 10px solid teal;
+      border: 3px solid teal;
 }
 .box td {
       border: none;
@@ -94,4 +101,7 @@ mark {
       font-style: normal;
       color: teal;
 }
-
+.arrow {
+      font-family: "Noto Sans Japanese", sans-serif;
+      font-weight: bold;
+}
