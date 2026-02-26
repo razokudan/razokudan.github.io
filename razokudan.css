@@ -9,7 +9,7 @@ body {
      
 
 }
-main {
+article {
       margin: 50px;
 }
 h1 a {
@@ -34,10 +34,16 @@ h1 {
       border-bottom: 10px solid gold;
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
       font-family: Garuda, sans-serif;
       text-indent: 1em;
+      color: darkgreen;
+}
 
+h3, h4, h5, h6 {
+      font-family: Garuda, sans-serif;
+      text-indent: 3em;
+      color: gold;
 }
 footer {
       font-family: Garuda, sans-serif;
@@ -104,4 +110,5 @@ img {
 .arrow {
       font-family: "Noto Sans Japanese", sans-serif;
       font-weight: bold;
+    
 }
