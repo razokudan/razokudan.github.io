@@ -4,7 +4,8 @@ html {
 
 body {
       font-family: "Bitstream Charter", serif;
-      background-color: lightgoldenrodyellow;
+      background-color: hsla(120 100% 30% / 0.3);
+      color: hsl(120 100% 10%);
       
      
 
@@ -12,15 +13,23 @@ body {
 article {
       margin: 50px;
 }
-h1 a {
-      text-decoration: none;
-      color: green;
-}
 
 a, address{
       text-decoration: none;
       font-style: normal;
-      color: magenta;
+      color: hsl(120 100% 20%);
+}
+
+address{
+      font-family: "Noto Sans Japanese", sans-serif;
+      font-weight: bold;
+}
+
+.math {
+      font-family: "Bitstream Charter", serif;
+      font-size: 100%;
+      color: hsl(120 100% 20%);
+      margin: 30px;
 }
 
 h1 {
@@ -28,63 +37,70 @@ h1 {
       text-transform: uppercase;
       font-size: 300%;
       text-align: center;
-      color: green;
-      letter-spacing: -2px;
-      border-top: 10px solid gold;
-      border-bottom: 10px solid gold;
+      letter-spacing: -6px;
+      background: hsla(120 100% 30% / 0.4);
+      border: 10px solid hsl(120 100% 30%);
+      line-height: 1.5;
+      margin: 0px;
+      margin-bottom: 30px;
+      
 }
 
 h2 {
-      font-family: Garuda, sans-serif;
+      font-family: "Noto Sans Japanese", sans-serif;
       text-indent: 1em;
-      color: darkgreen;
+      color: hsl(120 100% 20%);
 }
 
 h3, h4, h5, h6 {
-      font-family: Garuda, sans-serif;
+      font-family: "Noto Sans Japanese", sans-serif;
       text-indent: 3em;
-      color: gold;
+      color: hsla(120 100% 20% / 0.75);
 }
+
+h4 a {
+      font-family: "Noto Sans Japanese", sans-serif;
+      color: hsla(120 100% 20% / 0.75);
+}
+
 footer {
-      font-family: Garuda, sans-serif;
+      font-family: "Noto Sans Japanese", sans-serif;
+      color: hsl(120 100% 20%);
+      font-size: 90%;
       text-align: center;
-      border-top: 3px solid darkgreen;
-      margin-top: 25px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      border: 10px solid hsl(120 100% 30%);
+      background: hsla(120 100% 30% / 0.4);
+      margin-top: 30px;
+      line-height: 2.5;
       
-}     
-dfn {
+}    
+
+dfn, em {
       font-style: normal;
 }
+
 table, th, td {
-      Border: 3px solid teal;
+      Border: 3px solid hsl(120 100% 20%);
 
 }
 th {
-      color: darkgreen;
+      color: hsl(120 100% 10%);
 }
 li {
       list-style-type: none;
 }
+
+
 mark {
-      background: lightblue;
+      background: hsla(120 100% 30% / 0.4);
+      color: hsl(120 100% 10%);
     
 }
 img {
-      border: 3px solid teal;
+      border: 3px solid hsl(120 100% 20%);
 }
-.pos {
-      color: green;
-      font-style: normal;
-}
-.neg {
-      color: red;
-      font-style: normal;
-}
-.neu {
-      color: blue;
-      font-style: normal;
-}
-
 
 .extra {
       font-size: 80%;
@@ -92,23 +108,25 @@ img {
 }
 
 .box {
-      border: 3px solid teal;
+      border: 3px solid hsl(120 100% 20%);
 }
 .box td {
       border: none;
 }
 
 .textlink {
-      color: black;
+      color: hsl(120 100% 10%);
       font-variant: small-caps;
 }
-.look {
-      
-      font-style: normal;
-      color: teal;
-}
+
 .arrow {
       font-family: "Noto Sans Japanese", sans-serif;
       font-weight: bold;
     
+}
+
+.headref {
+      font-family: "Noto Sans Japanese", sans-serif;
+      color: hsl(120 100% 30%);
+      font-weight: normal;
 }
