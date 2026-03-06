@@ -9,24 +9,28 @@
   </style>
 </head>
 <body>
+
+<div class="header"><a href="index.html"><img class="banner" src="icon.jpg" alt="razokudan" width="174" height="92"></a></div>
+
 <main>
 
-<header>
-<h1><a href="index.html">裸族団</a></h1>
-</header>
+
+
 
 <a href="mathematik.html"><span class="arrow">＜ー</span></a>
 <article>
-<h2>Kurvendiskussion</h2>
-  
-  <p>In der <dfn>Kurvendiskussion</dfn> werden Funktionsgraphen (in diesem Artikel von rationalen Funktionen) auf ihre Eigenschaften hin untersucht.</p>
+<header>
 
-<h3 id="o">Untersuchbare Eigenschaften</h3>
+<h1>Kurvendiskussion</h1>
+  
+  <p>In der <dfn>Kurvendiskussion</dfn> werden Funktionsgraphen (in diesem Artikel von rationalen Funktionen) auf ihre geometrischen Eigenschaften hin untersucht.</p>
+</header>
+<h2 id="o">Untersuchbare Eigenschaften</h2>
 
         
       <ol>
-        <li><a href="#dm"><span class="headref">∨</span>　Definitionsmenge</a></li>
-        <li><a href="#vh"><span class="headref">∨</span>　Verhalten zu </a></li>
+        <li><a href="#db"><span class="headref">∨</span>　Definitionsbereich</a></li>
+        <li><a href="#∞"><span class="headref">∨</span>　Unendlichkeitsverhalten</a></li>
         <li><a href="#sy"><span class="headref">∨</span>　Symmetrie</a></li>
         <li><a href="#ns"><span class="headref">∨</span>　Nullstellen</a></li>
         <li><a href="#sp"><span class="headref">∨</span>　Schnittpunkte</a></li>
@@ -34,18 +38,59 @@
         <li><a href="#ex"><span class="headref">∨</span>　Extrempunkte</a></li>
       </ol>
     
-    <h4 id="dm"><a href="#o"><span class="headref">∧</span>　Definitionsmenge</a></h4>
+    <h3 id="db"><a href="#o"><span class="headref">∧</span>　Definitionsbereich</a></h3>
     
-      <p>Die <dfn>Definitionsmenge</dfn> sind alle Werte die für x eine gültige Lösung bringen.</p>
+      <p>Der <dfn>Definitionsbereich</dfn> sind alle Zahlen (maximal die <span class="blackboard">R</span>eelle Zahlen) die für x eine gültige Lösung bringen.</p>
       
-      <blockquote class="math">z.B.: <math> <mfrac><mn>1</mn> <mn>x</mn></mfrac> </math></blockquote>
+      <blockquote class="math">z.B.: f(x)= <math><mfrac><mn>1</mn> <mn>x</mn></mfrac> </math> &mdash;&gt;  D<sub>f</sub>=<span class="blackboard">R</span>⁠\{0}</blockquote>
       
-    <h4 id="vh"><a href="#o"><span class="headref">∧</span>　Verhalten zu ∞</a></h4>
-    <h4 id="sy"><a href="#o"><span class="headref">∧</span>　Symmetrie</a></h4>
-    <h4 id="ns"><a href="#o"><span class="headref">∧</span>　Nullstellen</a></h4>
-    <h4 id="sp"><a href="#o"><span class="headref">∧</span>　Schnittpunkte</a></h4>
-    <h4 id="ab"><a href="#o"><span class="headref">∧</span>　Ableitungen</a></h4>
-    <h4 id="ex"><a href="#o"><span class="headref">∧</span>　Extrempunkte</a></h4>
+    <h3 id="∞"><a href="#o"><span class="headref">∧</span>　Unendlichkeitsverhalten</a></h3>
+    
+      <p>Das <dfn>Unendlichkeitsverhalten</dfn> beschreibt wie sich die Funktion bei "unendlichen Werten" für x verhält.</p>
+      
+      <blockquote>Für x &mdash;&gt; ±∞ geht f(x) &mdash;&gt; ±∞</blockquote>
+    
+    
+    
+    
+    <h3 id="sy"><a href="#o"><span class="headref">∧</span>　Symmetrie</a></h3>
+    
+      <p>Der Graph ist <dfn><em><mark>achsen</mark></em>symmetrisch</dfn> zur y-Achse, wenn f(x)=f(<em><mark>-x</mark></em>) gilt. <dfn><em><mark>Punkt</mark></em>symmetrisch</dfn> zum Ursprung wenn f(x)=<em><mark>-f(-x)</mark></em> gilt.</p>
+      
+      <p>Somit sind alle Graphen mit nur <em><mark>geraden</mark></em> Potenzen in der Funktion <em><mark>achsensymmetrisch</mark></em>. Mit nur <em><mark>ungeraden</mark></em> potenzen <em><mark>Punktsymmetrisch</mark></em>. Sind die Potenzen in der Funktion gemischt, ist der Graph gar nicht symmetrisch.</p>
+    
+    <h3 id="ns"><a href="#o"><span class="headref">∧</span>　Nullstellen</a></h3>
+    
+      <p> Die <dfn>Nullstellen</dfn> eines Graphen sind die Punkte der <em><mark>x-Achse</mark></em> (x-Werte) die der Graph berührt. Also die Stellen an denen gilt <em><mark>f(x)=0</mark></em>. Auch y=0.</p>
+      
+      <p>Weiter kann an einer Nullstelle ein <em><mark>Vorzeichenwechsel (VZW)</mark></em> stattfinden. Wenn die Funktionsgleichung aus der "Normalform" ( f(x)=a<sup>2</sup>+2ab+b<sup>2</sup> ) in die "Linearfaktorform" ( f(x)=(a+b)<sup>2</sup> ) umgeschrieben wird, sind <em><mark>VZW</mark></em> an der <em><mark>ungeraden</mark></em> Potenz zu erkennen. Entsprechend sind die Potenzen <em><mark>gerade</mark></em>, wenn es <em><mark>keinen VZW</mark></em> an der Stelle gibt.
+      
+    <h3 id="sp"><a href="#o"><span class="headref">∧</span>　Schnittpunkte</a></h3>
+    
+      <p><dfn>Schnittpunkte</dfn> eines Graphen sind die Punkte der <em><mark>y-Achse</mark></em> (y-Werte) die der Graph berührt. Also die Stellen an denen gilt <em><mark>f(0)=a</mark></em>. Auch x=0.</p>
+    
+    <h3 id="ab"><a href="#o"><span class="headref">∧</span>　Ableitungen</a></h3>
+    
+      <p>Die <dfn>Ableitung</dfn> einer Funktion (<dfn>Stammfunktion</dfn>) ist jene Funktion, welche die Tangente, die den Graphen der "originalen" Funktion entlangläuft, beschreibt.</p>
+      
+      <p>Diese Tangente mathematisch zu bestimmen ist nur durch Annäherung möglich, indem man eine Sekante in die Tangente laufen lässt.</p>
+      
+      <p>Nachdem man den Punkt der Tangente bestimmt hat, nimmt man einen zweiten Punkt vom Graphen. Diese Punkte stellen eine Sekante dar. Wenn man dann diese Sekantenfunktion vereinfacht, kann man statt den Wert des zweiten Punktes den Wert des Tangentenpunktes einfügen. Man bekommt dann die Steigung der Tangente.</p>
+      
+      <p>Mit den Tangentenwerten kann man dann wieder einen Graphen, den der Ableitungsfunktion, zeichnen.</p>
+      
+      <p>Man kann die Ableitung wieder ableiten. Einer Stammfunktion ersten gerades kann man <em><i>eine</i></em> Ableitung errechnen, da die Tangente eine Gerade, den y-Wert der Steigung von der Stammfunktion, ist.</p>
+      
+      <p>Einer <em><mark>Stammfunktion n-ten Grades</mark></em> kann man <em><mark>n-1 Ableitungen</mark></em> bilden.</p>
+      
+      <table class="box"><tr><td>Beispiel:<br></td></tr>
+      
+      
+      </table>
+      
+      
+    
+    <h3 id="ex"><a href="#o"><span class="headref">∧</span>　Extrempunkte</a></h3>
    
     
 </article>

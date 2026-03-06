@@ -10,8 +10,10 @@ body {
      
 
 }
+
 article {
-      margin: 50px;
+      margin-right: 100px;
+      margin-left: 100px;
 }
 
 a, address{
@@ -25,14 +27,21 @@ address{
       font-weight: bold;
 }
 
-.math {
+.math, blockquote{
       font-family: "Bitstream Charter", serif;
       font-size: 100%;
-      color: hsl(120 100% 20%);
+      color: hsl(120 100% 10%);
       margin: 30px;
 }
 
-h1 {
+
+
+.blackboard {
+      font-family: UnPilgi, Z003, serif;
+      font-weight: bold;
+}
+
+/*h1 {
       font-family: "Noto Sans Japanese", sans-serif;
       text-transform: uppercase;
       font-size: 300%;
@@ -45,20 +54,23 @@ h1 {
       margin-bottom: 30px;
       
 }
-
-h2 {
+*/
+h1 {
       font-family: "Noto Sans Japanese", sans-serif;
       text-indent: 1em;
       color: hsl(120 100% 20%);
+      
 }
 
-h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
       font-family: "Noto Sans Japanese", sans-serif;
       text-indent: 3em;
       color: hsla(120 100% 20% / 0.75);
+      margin-bottom: 1.5em;
+      margin-top: 4em;
 }
 
-h4 a {
+h3 a {
       font-family: "Noto Sans Japanese", sans-serif;
       color: hsla(120 100% 20% / 0.75);
 }
@@ -73,8 +85,7 @@ footer {
       border: 10px solid hsl(120 100% 30%);
       background: hsla(120 100% 30% / 0.4);
       margin-top: 30px;
-      line-height: 2.5;
-      
+      line-height: 2.5;      
 }    
 
 dfn, em {
@@ -100,6 +111,16 @@ mark {
 }
 img {
       border: 3px solid hsl(120 100% 20%);
+}
+
+.banner {
+      margin: 0;
+      border: none;
+}
+
+.header {
+      display: flex;
+      justify-content: center;
 }
 
 .extra {
