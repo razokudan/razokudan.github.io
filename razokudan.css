@@ -6,7 +6,7 @@ body {
       font-family: "Bitstream Charter", serif;
       background-color: hsla(120 100% 30% / 0.3);
       color: hsl(120 100% 10%);
-      
+      text-align: justify;
      
 
 }
@@ -62,7 +62,7 @@ h1 {
       
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4 {
       font-family: "Noto Sans Japanese", sans-serif;
       text-indent: 3em;
       color: hsla(120 100% 20% / 0.75);
@@ -73,6 +73,14 @@ h2, h3, h4, h5, h6 {
 h3 a {
       font-family: "Noto Sans Japanese", sans-serif;
       color: hsla(120 100% 20% / 0.75);
+}
+
+h5, h6 {
+      font-family: "Noto Sans Japanese", sans-serif;
+      text-indent: 6em;
+      color: hsla(120 100% 20% / 0.75);
+      margin-bottom: 1.5em;
+      margin-top: 3em;
 }
 
 footer {
@@ -111,6 +119,15 @@ mark {
 }
 img {
       border: 3px solid hsl(120 100% 20%);
+}
+
+.bsp {
+      /*text-indent: 2em;*/
+      line-height: 1.8em;
+      background-color: hsla(120 100% 30% / 0.2);
+      padding: 15px;
+    
+
 }
 
 .banner {
