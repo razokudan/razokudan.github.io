@@ -168,3 +168,7 @@ img {
       color: hsl(120 100% 30%);
       font-weight: normal;
 }
+
+.abl {
+      letter-spacing: -4px;
+}

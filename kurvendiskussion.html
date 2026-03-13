@@ -71,7 +71,7 @@
     
     <h3 id="ab"><a href="#o"><span class="headref">∧</span>　Ableitungen</a></h3>
     
-      <p>Die <dfn>Ableitung</dfn> einer Funktion (<dfn>Stammfunktion</dfn>) ist jene Funktion, welche die Tangente, die den Graphen der "originalen" Funktion entlangläuft, beschreibt.</p>
+      <p>Die <dfn>Ableitung</dfn> einer Funktion ist jene Funktion, welche die Tangente, die den Graphen der "originalen" Funktion entlangläuft, beschreibt.</p>
       
       <p>Diese Tangente mathematisch zu bestimmen ist nur durch Annäherung möglich, indem man eine Sekante in die Tangente laufen lässt.</p>
       
@@ -79,7 +79,7 @@
       
       <p>Mit den Tangentenwerten kann man dann wieder einen Graphen, den der Ableitungsfunktion, zeichnen.</p>
       
-      <p>Man kann die Ableitung wieder ableiten. Einer Stammfunktion ersten gerades kann man <em><i>eine</i></em> Ableitung errechnen, da die Tangente eine Gerade, den y-Wert der Steigung von der Stammfunktion, ist.</p>
+      <p>Man kann die Ableitung wieder ableiten. Einer Funktion ersten gerades kann man <em><i>eine</i></em> Ableitung errechnen, da die Tangente eine Gerade, den y-Wert der Steigung von der Funktion, ist. f(x) ist die <dfn>Ausgangsfunktion</dfn>, F(x) ist die <dfn>Stammfunktion</dfn>, das hier beschriebene "rückwarts" anwenden, dazu später mehr. f<span class="abl">´</span>(x) ist die erste Ableitungsfunktion, f<span class="abl">´´</span>(x) die zweite, und so weiter f<span class="abl">´´´</span>(x), f<span class="abl">´´´´</span>(x) usw.</p>
       
       <p>Einer <em><mark>Stammfunktion n-ten Grades</mark></em> kann man <em><mark>n Ableitungen</mark></em> bilden.</p>
       
@@ -210,7 +210,7 @@
       </mrow>
       </mfrac>
      </math>
-    ist, für die man nicht x=1 einsetzen darf.
+    ist, für die man nicht x=1 einsetzen darf. Deswegen "Grenzwert", x geht nur so dicht an 1 heran, dass man es als 1 nehmen kann.
      </p>
      <p> Mit der Limesschreibweise:<br>
      
@@ -294,15 +294,42 @@
       
       </table>
       
-      <p>Man kann es sich aber auch abkürzen, praktischerweise ist die Ableitung von x<sup>n</sup> &mdash;&gt; nx<sup>n-1</sup>.</p>
+      <p>Man kann es sich aber auch abkürzen, praktischerweise ist die Ableitung von x<sup>n</sup> &mdash;&gt; nx<sup>n-1</sup>.<br>Statt die Limesschreibweise mit x+1=1+1=2 gilt f(x)=x<sup>2</sup> &mdash;&gt; f<span class="abl">´</span>(x)=2x=2·1=2.</p>
       
       <h4>Ableitungsregeln</h4>
       
+         
+        <h5>Potenzregel</h5>
+        
+          <p>Die <dfn>Potenzregel<dfn> besagt, oben bewiesen, <em><mark>x<sup>n</sup> &mdash;&gt; nx<sup>n-1</sup></mark></em>.</p>
+      
+        <h5>Summenregel</h5>
+        
+          <p>Die <dfn>Summenregel</dfn> besagt das man einzelne Summanden, natürlich auch mit negativem Vorzeichen (Differenzregel), getrennt ableitet, wobei <em><mark>konstante Summanden</mark></em>, also die ohne Variabeln, in der nächsten Ableitung <em><mark>entfallen</mark></em>:</p>
+          <blockquote class="bsp"><p>f(x)=3x<sup>4</sup>+5x<sup>2</sup> <br> &mdash;&gt; f<span class="abl">´</span>(x)=3·4x<sup>3</sup>+5·2x=12x<sup>3</sup>+10x <br> &mdash;&gt; f<span class="abl">´´</span>(x)=12·3x<sup>2</sup>+12=36x<sup>2</sup>+12 <br> &mdash;&gt; f<span class="abl">´´´</span>(x)=36·2x=72x <br> &mdash;&gt; f<span class="abl">´´´´</span>(x)=72<br>  &mdash;&gt; f<span class="abl">´´´´´</span>(x)=0
+        </p></blockquote>
+        
+     
         <h5>Produktregel</h5>
         
-        <p>Die <dfn>Produktregel</dfn> ist…</p>
+        <p>Die <dfn>Produktregel</dfn> besagt, dass man Faktoren nicht einzeln wie die Summanden ableiten kann. Da:</p>
+        
+        <blockquote class="bsp"><p>f(x)=3x<sup>4</sup>·5x<sup>2</sup>=15x<sup>6</sup>  &mdash;&gt; f<span class="abl">´</span>(x)=15·6x<sup>5</sup>=90x<sup>5</sup><br>aber, mit Summandenregel auf Faktoren angewendet:<br>
+        
+        f(x)=3x<sup>4</sup>·5x<sup>2</sup>=15x<sup>6</sup> <br> &mdash;&gt; f<span class="abl">´</span>(x)=3·4x<sup>3</sup>·5·2x<wbr>=12x<sup>3</sup>·10x<wbr>=12x<sup>3</sup>·10x<wbr>=120x<sup>4</sup><wbr>≠90x<sup>5</sup>
+        
+ </p></blockquote>
+      <p>Stattdessen gilt:</p>
       
+      <blockquote><p>f(x)=u(x)·v(x) &mdash;&gt; f<span class="abl">´</span>(x)=u´(x)·v(x)+u(x)·v´(x) </p> <p>Kurz: f<span class="abl">´</span>=u´·v+u·v´.</p>
+      <p>Bei drei Faktoren entsprechend: f<span class="abl">´</span>=<em><mark>u´</mark></em>·v·w+u·<em><mark>v´</mark></em>·w+u·v·<em><mark>w´</mark></em>.</p><p>Es werden die Faktoren wiederholt, bis alle als Ableitung vorkommen.</p></blockquote>
     
+    
+    <blockquote class="bsp"><p><mark>BEWEIS</mark></p>
+    
+    <p>
+    
+    </p></blockquote>
     <h3 id="ex"><a href="#o"><span class="headref">∧</span>　Extrempunkte</a></h3>
    
     
