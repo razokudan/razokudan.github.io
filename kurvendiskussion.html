@@ -35,14 +35,20 @@
         <li><a href="#ns"><span class="headref">∨</span>　Nullstellen</a></li>
         <li><a href="#sp"><span class="headref">∨</span>　Schnittpunkte</a></li>
         <li><a href="#ab"><span class="headref">∨</span>　Ableitungen</a></li>
+        <li><ol><li><a href="#ar"><span class="headref">∨</span>　Ableitungsregeln</a></li>
+       <li><ol><li><a href="#po"><span class="headref">∨</span>　Potenzregel</a></li>
+        <li><a href="#su"><span class="headref">∨</span>　Summenregel</a></li>
+        <li><a href="#pr"><span class="headref">∨</span>　Produktregel</a></li>
+        <li><a href="#qu"><span class="headref">∨</span>　Quotientenregel</a></li
+        ><li><a href="#ke"><span class="headref">∨</span>　Kettenregel</a></li></ol></li></ol></li>
         <li><a href="#ex"><span class="headref">∨</span>　Extrempunkte</a></li>
       </ol>
     
     <h3 id="db"><a href="#o"><span class="headref">∧</span>　Definitionsbereich</a></h3>
     
-      <p>Der <dfn>Definitionsbereich</dfn> sind alle Zahlen (maximal die <span class="blackboard">R</span>eelle Zahlen) die für x eine gültige Lösung bringen.</p>
+      <p>Der <dfn>Definitionsbereich</dfn> sind alle Zahlen (maximal die &#8477;eelle Zahlen) die für x eine gültige Lösung bringen.</p>
       
-      <blockquote class="math">z.B.: f(x)= <math><mfrac><mn>1</mn> <mn>x</mn></mfrac> </math> &mdash;&gt;  D<sub>f</sub>=<span class="blackboard">R</span>⁠\{0}</blockquote>
+      <blockquote class="math">z.B.: f(x)= <math><mfrac><mn>1</mn> <mn>x</mn></mfrac> </math> &mdash;&gt;  D<sub>f</sub>=&#8477;⁠\{0}</blockquote>
       
     <h3 id="∞"><a href="#o"><span class="headref">∧</span>　Unendlichkeitsverhalten</a></h3>
     
@@ -79,7 +85,7 @@
       
       <p>Mit den Tangentenwerten kann man dann wieder einen Graphen, den der Ableitungsfunktion, zeichnen.</p>
       
-      <p>Man kann die Ableitung wieder ableiten. Einer Funktion ersten gerades kann man <em><i>eine</i></em> Ableitung errechnen, da die Tangente eine Gerade, den y-Wert der Steigung von der Funktion, ist. f(x) ist die <dfn>Ausgangsfunktion</dfn>, F(x) ist die <dfn>Stammfunktion</dfn>, das hier beschriebene "rückwarts" anwenden, dazu später mehr. f<span class="abl">´</span>(x) ist die erste Ableitungsfunktion, f<span class="abl">´´</span>(x) die zweite, und so weiter f<span class="abl">´´´</span>(x), f<span class="abl">´´´´</span>(x) usw.</p>
+      <p>Man kann die Ableitung wieder ableiten. Einer Funktion ersten gerades kann man <em><i>eine</i></em> Ableitung errechnen, da die Tangente eine Gerade, den y-Wert der Steigung von der Funktion, ist. f(x) ist die <dfn>Ausgangsfunktion</dfn>, F(x) ist die <dfn>Stammfunktion</dfn>, das hier beschriebene "rückwarts" anwenden, dazu später mehr. f<span class="abl"> '</span>(x) ist die erste Ableitungsfunktion, f<span class="abl"> ' '</span>(x) die zweite, und so weiter f<span class="abl"> ' ' '</span>(x), f<span class="abl"> ' ' ' '</span>(x) usw.</p>
       
       <p>Einer <em><mark>Stammfunktion n-ten Grades</mark></em> kann man <em><mark>n Ableitungen</mark></em> bilden.</p>
       
@@ -87,249 +93,131 @@
       
       <p>Beispiel:</p><p>f(x)=x<sup>2</sup> <br> Punkt der Tangente x=1<br> f(1)=1<sup>2</sup>=1</p>
       
-      <p>Den Punkt der Sekante, welchen wir auf den der Tangente schieben wollen, können wir nicht einfach berechnen da, x<sub>1</sub>=x<sub>2</sub> mit Sekantensteigung: m=<math><mfrac><mrow><mi>y</mi><msub><mn>2</mn></msub><mo>-</mo><mi>y</mi><msub><mn>1</mn></msub></mrow><mrow><mi>x</mi><msub><mn>2</mn></msub><mo>-</mo><mi>x</mi><msub><mn>1</mn></msub></mrow></mfrac></math>, zu 0 im Nenner führt, was ja nicht geht.</p>
+      <p>Den Punkt der Sekante, welchen wir auf den der Tangente schieben wollen, können wir nicht einfach berechnen da, x<sub>1</sub>=x<sub>2</sub> mit Sekantensteigung: m=<math><mfrac><mrow><msub><mn>y</mn><mn>2</mn></msub><mo>-</mo><msub><mn>y</mn><mn>1</mn></msub></mrow><mrow><msub><mn>x</mn><mn>2</mn></msub><mo>-</mo><msub><mn>x</mn><mn>1</mn></msub></mrow></mfrac></math>, zu 0 im Nenner führt, was ja nicht geht.</p>
       
       <p>Somit wird der Sekantenpunkt als Variable x belassen, und der Bruch aufgelöst.</p> <p>m=
     
-      <math>
-      <mfrac>
-      <mrow>
-        <mi>f(1)</mi>
-        <mo>-</mo>
-        <mi>f(x)</mi>
-      </mrow>
-      <mrow>
-        <mi>1</mi>
-        <mo>-</mo>
-        <mi>x</mi>
-      </mrow>
-      </mfrac>
-      
-      <mo>=</mo>
-      
-      <mfrac>
-      <mrow>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>x</mi><msup><mn>2</mn></msup>
-      </mrow>
-      <mrow>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>x</mi>
-      </mrow>
-      </mfrac>
-      
-        <mo>=</mo>
-    
-     <mfrac>
-      <mrow>
-      <mo>(</mo>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>x</mi><msup><mn>2</mn></msup>
-          <mo>)</mo>
-          <mo>(</mo>
-          <mo>-</mo>
-          <mn>1</mn>
-        <mo>)</mo>
-      </mrow>
-      <mrow>
-      <mo>(</mo>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>x</mi>
-          <mo>)</mo>
-          <mo>(</mo>
-          <mo>-</mo>
-          <mn>1</mn>
-        <mo>)</mo>
-      </mrow>
-    
-      </mfrac>
-      
-        <mo>=</mo>
-    
-     <mfrac>
-      <mrow>
-         <mi>x</mi><msup><mn>2</mn></msup>
-           <mo>-</mo>
-          <mn>1</mn>
-      </mrow>
-      <mrow>
-         <mi>x</mi>
-        <mo>-</mo>
-         <mn>1</mn>
-      </mrow>
-      </mfrac>
-    
-     
-        <mo>=</mo>
-    
-     <mfrac>
-      <mrow>
-       <mo>(</mo>
-         <mi>x</mi>
-           <mo>-</mo>
-          <mn>1</mn>
-           <mo>)</mo>
-          
-           <mo>(</mo>
-           <mi>x</mi>
-           <mo>+</mo>
-          <mn>1</mn>
-           <mo>)</mo>
-           
-      </mrow>
-      <mrow>
-         <mi>x</mi>
-        <mo>-</mo>
-         <mn>1</mn>
-      </mrow>
-      </mfrac>
-     <mo>=</mo>
-     <mi>x</mi>
-           <mo>+</mo>
-          <mn>1</mn>
-    
-    
-    
-      </math>
+      <math><mfrac> <mrow> <mn>f(1)</mn> <mo>-</mo>  <mn>f(x)</mn></mrow> <mrow> <mn>1</mn> <mo>-</mo><mn>x</mn> </mrow> </mfrac> <mo>=</mo> <mfrac> <mrow> <mn>1</mn> <mo>-</mo> <msup><mn>x</mn><mn>2</mn></msup></mrow><mrow> <mn>1</mn> <mo>-</mo> <mn>x</mn>  </mrow></mfrac> <mo>=</mo> <mfrac> <mrow><mo>(</mo><mn>1</mn><mo>-</mo><msup><mn>x</mn><mn>2</mn></msup><mo>)</mo><mo>(</mo><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mrow><mo>(</mo> <mn>1</mn> <mo>-</mo><mn>x</mn><mo>)</mo> <mo>(</mo>  <mo>-</mo> <mn>1</mn> <mo>)</mo></mrow> </mfrac> <mo>=</mo> <mfrac> <mrow><msup> <mn>x</mn><mn>2</mn></msup>  <mo>-</mo> <mn>1</mn> </mrow> <mrow>  <mn>x</mn> <mo>-</mo> <mn>1</mn> </mrow> </mfrac> <mo>=</mo><mfrac> <mrow><mo>(</mo> <mn>x</mn> <mo>-</mo><mn>1</mn> <mo>)</mo> <mo>(</mo> <mn>x</mn><mo>+</mo> <mn>1</mn><mo>)</mo></mrow><mrow>  <mn>x</mn> <mo>-</mo> <mn>1</mn> </mrow> </mfrac><mo>=</mo> <mn>x</mn><mo>+</mo><mn>1</mn></math>
      </p>
      <p>
-     Jetzt kann man x=1 sozusagen "einsetzen", denn wir bilden nur den "Grenzwert", genannt "Limes", da es immer noch die gleiche aber veränderte Funktion f(x)=  <math><mfrac>
-      <mrow>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>x</mi><msup><mn>2</mn></msup>
-      </mrow>
-      <mrow>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>x</mi>
-      </mrow>
-      </mfrac>
-     </math>
-    ist, für die man nicht x=1 einsetzen darf. Deswegen "Grenzwert", x geht nur so dicht an 1 heran, dass man es als 1 nehmen kann.
+     Jetzt kann man x=1 sozusagen "einsetzen", denn wir bilden nur den "Grenzwert", genannt "Limes", da es immer noch die gleiche aber veränderte Funktion f(x)=  <math><mfrac> <mrow> <mn>1</mn>  <mo>-</mo>   <msup><mn>x</mn><mn>2</mn></msup> </mrow> <mrow>    <mn>1</mn>   <mo>-</mo>   <mn>x</mn> </mrow> </mfrac> </math>
+   ist, für die man nicht x=1 einsetzen darf. Deswegen "Grenzwert", x geht nur so dicht an 1 heran, dass man es als 1 nehmen kann.
      </p>
-     <p> Mit der Limesschreibweise:<br>
      
-     <math>
-  <mmultiscripts>
-    <mi>=</mi>
-    <mprescripts />
-    <mi>x&mdash;&gt;1</mi>
-    <mi><pre>lim  </pre></mi>
-  </mmultiscripts>
-   <mfrac>
-      <mrow>
-        <mi>f(1)</mi>
-        <mo>-</mo>
-        <mi>f(x)</mi>
-      </mrow>
-      <mrow>
-        <mi>1</mi>
-        <mo>-</mo>
-        <mi>x</mi>
-      </mrow>
-      </mfrac>
-   <mo>=</mo>
-      
-      <mfrac>
-      <mrow>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>x</mi><msup><mn>2</mn></msup>
-      </mrow>
-      <mrow>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>x</mi>
-      </mrow>
-      </mfrac>
-       
-        <mo>=</mo>
-    
-     <mfrac>
-      <mrow>
-       <mo>(</mo>
-         <mi>x</mi>
-           <mo>-</mo>
-          <mn>1</mn>
-           <mo>)</mo>
-          
-           <mo>(</mo>
-           <mi>x</mi>
-           <mo>+</mo>
-          <mn>1</mn>
-           <mo>)</mo>
-           
-      </mrow>
-      <mrow>
-         <mi>x</mi>
-        <mo>-</mo>
-         <mn>1</mn>
-      </mrow>
-      </mfrac>
-     <mo>=</mo>
-     <mi>x</mi>
-           <mo>+</mo>
-          <mn>1</mn>
-     <mo>=</mo>
-     <mi>1</mi>
-           <mo>+</mo>
-          <mn>1</mn>
-    
-     <mo>=</mo>
-  
-</math>
-      
-     2
-     </p>
+     <p> Mit der Limesschreibweise:</p>
+     
+    <pre> <math><mmultiscripts><mn>=</mn><mprescripts /><mn>x&mdash;&gt;1</mn><mn>lim  </mn></mmultiscripts><mfrac><mrow><mn>f(1)</mn><mo>-</mo><mn>f(x)</mn></mrow><mrow><mn>1</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>-</mo><msup><mn>x</mn><mn>2</mn></msup></mrow><mrow><mn>1</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><mn>x</mn><mo>-</mo><mn>1</mn><mo>)</mo> <mo>(</mo><mn>x</mn><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mn>x</mn><mo>-</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mn>x</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>2</mn></math></pre>
+     
      <p>
       Damit ist die Steigung der Tangente bei f(1)=2. 
       </p>
       </blockquote>
       
       
-      </table>
+ 
       
-      <p>Man kann es sich aber auch abkürzen, praktischerweise ist die Ableitung von x<sup>n</sup> &mdash;&gt; nx<sup>n-1</sup>.<br>Statt die Limesschreibweise mit x+1=1+1=2 gilt f(x)=x<sup>2</sup> &mdash;&gt; f<span class="abl">´</span>(x)=2x=2·1=2.</p>
+      <p>Man kann es sich aber auch abkürzen, praktischerweise ist die Ableitung von x<sup>n</sup> &mdash;&gt; nx<sup>n-1</sup>.<br>Statt die Limesschreibweise mit x+1=1+1=2 gilt f(x)=x<sup>2</sup> &mdash;&gt; f<span class="abl"> '</span>(x)=2x=2·1=2.</p>
       
-      <h4>Ableitungsregeln</h4>
+      <h4 id="ar"><a href="#o"><span class="headref">∧</span>　Ableitungsregeln</a></h4>
       
          
-        <h5>Potenzregel</h5>
+        <h5 id="po"><a href="#o"><span class="headref">∧</span>　Potenzregel</a></h5>
         
-          <p>Die <dfn>Potenzregel<dfn> besagt, oben bewiesen, <em><mark>x<sup>n</sup> &mdash;&gt; nx<sup>n-1</sup></mark></em>.</p>
+          <p>Die <dfn>Potenzregel</dfn> besagt, oben bewiesen, <em><mark>x<sup>n</sup> &mdash;&gt; nx<sup>n-1</sup></mark></em>.</p>
       
-        <h5>Summenregel</h5>
+        <h5 id="su"><a href="#o"><span class="headref">∧</span>　Summenregel</a></h5>
         
           <p>Die <dfn>Summenregel</dfn> besagt das man einzelne Summanden, natürlich auch mit negativem Vorzeichen (Differenzregel), getrennt ableitet, wobei <em><mark>konstante Summanden</mark></em>, also die ohne Variabeln, in der nächsten Ableitung <em><mark>entfallen</mark></em>:</p>
-          <blockquote class="bsp"><p>f(x)=3x<sup>4</sup>+5x<sup>2</sup> <br> &mdash;&gt; f<span class="abl">´</span>(x)=3·4x<sup>3</sup>+5·2x=12x<sup>3</sup>+10x <br> &mdash;&gt; f<span class="abl">´´</span>(x)=12·3x<sup>2</sup>+12=36x<sup>2</sup>+12 <br> &mdash;&gt; f<span class="abl">´´´</span>(x)=36·2x=72x <br> &mdash;&gt; f<span class="abl">´´´´</span>(x)=72<br>  &mdash;&gt; f<span class="abl">´´´´´</span>(x)=0
+          <blockquote class="bsp"><p>f(x)=3x<sup>4</sup>+5x<sup>2</sup> <br> &mdash;&gt; f<span class="abl"> '</span>(x)=3·4x<sup>3</sup>+5·2x=12x<sup>3</sup>+10x <br> &mdash;&gt; f<span class="abl"> ' '</span>(x)=12·3x<sup>2</sup>+12=36x<sup>2</sup>+12 <br> &mdash;&gt; f<span class="abl"> ' ' '</span>(x)=36·2x=72x <br> &mdash;&gt; f<span class="abl"> ' ' ' '</span>(x)=72<br>  &mdash;&gt; f<span class="abl"> ' ' ' ' '</span>(x)=0
         </p></blockquote>
         
      
-        <h5>Produktregel</h5>
+        <h5 id="pr"><a href="#o"><span class="headref">∧</span>　Produktregel</a></h5>
         
         <p>Die <dfn>Produktregel</dfn> besagt, dass man Faktoren nicht einzeln wie die Summanden ableiten kann. Da:</p>
         
-        <blockquote class="bsp"><p>f(x)=3x<sup>4</sup>·5x<sup>2</sup>=15x<sup>6</sup>  &mdash;&gt; f<span class="abl">´</span>(x)=15·6x<sup>5</sup>=90x<sup>5</sup><br>aber, mit Summandenregel auf Faktoren angewendet:<br>
+        <blockquote class="bsp"><p>f(x)=3x<sup>4</sup>·5x<sup>2</sup>=15x<sup>6</sup>  &mdash;&gt; f<span class="abl"> '</span>(x)=15·6x<sup>5</sup>=90x<sup>5</sup><br>aber, mit Summandenregel auf Faktoren angewendet:<br>
         
-        f(x)=3x<sup>4</sup>·5x<sup>2</sup>=15x<sup>6</sup> <br> &mdash;&gt; f<span class="abl">´</span>(x)=3·4x<sup>3</sup>·5·2x<wbr>=12x<sup>3</sup>·10x<wbr>=12x<sup>3</sup>·10x<wbr>=120x<sup>4</sup><wbr>≠90x<sup>5</sup>
+        f(x)=3x<sup>4</sup>·5x<sup>2</sup>=15x<sup>6</sup> <br> &mdash;&gt; f<span class="abl"> '</span>(x)=3·4x<sup>3</sup>·5·2x<wbr>=12x<sup>3</sup>·10x<wbr>=12x<sup>3</sup>·10x<wbr>=120x<sup>4</sup><wbr>≠90x<sup>5</sup>
         
  </p></blockquote>
+ 
       <p>Stattdessen gilt:</p>
       
-      <blockquote><p>f(x)=u(x)·v(x) &mdash;&gt; f<span class="abl">´</span>(x)=u´(x)·v(x)+u(x)·v´(x) </p> <p>Kurz: f<span class="abl">´</span>=u´·v+u·v´.</p>
-      <p>Bei drei Faktoren entsprechend: f<span class="abl">´</span>=<em><mark>u´</mark></em>·v·w+u·<em><mark>v´</mark></em>·w+u·v·<em><mark>w´</mark></em>.</p><p>Es werden die Faktoren wiederholt, bis alle als Ableitung vorkommen.</p></blockquote>
+      <blockquote><p>f(x)=u(x)·v(x) &mdash;&gt; f<span class="abl"> '</span>(x)=u '(x)·v(x)+u(x)·v '(x) </p> <p>Kurz: f<span class="abl"> '</span>=u '·v+u·v '.</p>
+      <p>Bei drei Faktoren entsprechend: f<span class="abl"> '</span>=<em><mark>u '</mark></em>·v·w+u·<em><mark>v '</mark></em>·w+u·v·<em><mark>w '</mark></em>.</p><p>Es werden die Faktoren wiederholt, bis alle als Ableitung vorkommen.</p></blockquote>
     
     
-    <blockquote class="bsp"><p><mark>BEWEIS</mark></p>
+    <blockquote class="bsp"><p><mark>BEWEIS</mark> von f=u·v &mdash;&gt; f  '=u '·v+u·v '.</p><p> <math><mn>f(x)</mn><mo>=</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn></math></p><p>  Ableitung von u(x) &mdash;&gt; <math><mfrac><mrow>
+      <mn>u(a)</mn><mo>-</mo><mn>u(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=u '(x)</p><p> Ableitung von v(x) &mdash;&gt; <math><mfrac><mrow>
+      <mn>v(a)</mn><mo>-</mo><mn>v(x)</mn><mo>)</mo></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=v '(x)</p><p>Ableitung von f(x) &mdash;&gt; <math><mfrac><mrow><mn>f(a)</mn><mo>-</mo><mn>f(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow>
+ </mfrac><mo>=</mo><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(a)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=f  '(x)</p>
+      
+      <p>f  '(x) soll von der obigen komplexen Form zu u '(x)·v(x)-u(x)·v '(x) umgeformt werden, damit die Ableitung von u·v &mdash;&gt; u '·v+u·v ' bewiesen ist. Dazu fügt man 0 ein: -u(a)·v(x)+u(a)·v(x)=0 (<span class="extra">Da 0 das <em><mark>neutrale Element</mark></em> der Addition ist, kann man es immer einfügen. 1 ist das neutrale Element der Multiplikation!</span>)</p>
+      
+    <p><math><mfrac><mrow><mn>f(a)</mn><mo>-</mo><mn>f(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow> </mfrac><mo>=</mo><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(a)</mn><mo>-</mo><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>+</mo><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(a)</mn><mo>-</mo><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><mn>v(a)</mn><mo>-</mo><mn>v(x)</mn><mo>)</mo><mo>·</mo><mn>u(a)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mo>(</mo><mn>u(a)</mn><mo>-</mo><mn>u(x)</mn><mo>)</mo><mo>·</mo><mn>v(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>v(a)</mn><mo>-</mo><mn>v(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>·</mo><mn>u(a)</mn><mo>+</mo>     <mn>v(x)</mn><mo>·</mo>  <mfrac>  <mrow> <mn>u(a)</mn> <mo>-</mo> <mn>u(x)</mn> </mrow>  <mrow> <mn>a</mn><mo>-</mo><mn>x</mn>   </mrow> </mfrac>
+ 
+      </math></p>
+     <p>Einsetzen:</p>
+      
+      <p>  <math> <mfrac> <mrow> <mn>v(a)</mn>  <mo>-</mo>     <mn>v(x)</mn>     </mrow>   <mrow>  <mn>a</mn><mo>-</mo><mn>x</mn>   </mrow>   </mfrac></math>=v '(x)</p> <p><math><mfrac>  <mrow>   <mn>u(a)</mn>   <mo>-</mo> <mn>u(x)</mn> </mrow> <mrow><mn>a</mn><mo>-</mo><mn>x</mn>  </mrow> </mfrac></math>=u '(x)</p>  <p><math> <mfrac> <mrow><mn>f(a)</mn><mo>-</mo><mn>f(x)</mn></mrow> <mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=v '(x)·u(a)+v(x)·u '(x)=v '·u+v·u '=u '·v+u·v '=f '</p><p><pre><math><mtext>Mit </mtext> <mmultiscripts><mn></mn><mprescripts /><mn>x&mdash;&gt;a</mn><mn>lim  </mn></mmultiscripts><mtext> werden alle x zu a somit ist (x) oder (a) nicht relevant.</mtext></math></pre></p>
+      
+      
     
-    <p>
-    
-    </p></blockquote>
+  </blockquote>
+  
+  <h5 id="qu"><a href="#o"><span class="headref">∧</span>　Quotientenregel</a></h5>
+  
+  <p>Die <dfn>Quotientenregel</dfn> lautet f=<math><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> &mdash;&gt; f '<math><mo>=</mo><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math></p>
+  
+   <blockquote class="bsp"><p><mark>BEWEIS</mark> von   f=<math><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> &mdash;&gt; f '<math><mo>=</mo><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math>.</p>
+   <p>f(x) &mdash;&gt; <math><mfrac><mrow><mn>u(x)</mn></mrow><mrow><mn>v(x)</mn></mrow></mfrac></math>=f '(x)<math><mo>=</mo><mfrac><mrow><mn>u '(x)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v '(x)</mn></mrow><mrow><msup><mn>v(x)</mn><mn>2</mn></msup></mrow></mfrac></math></p>
+   <p>  Ableitung von u(x) &mdash;&gt; <math><mfrac><mrow>
+      <mn>u(a)</mn><mo>-</mo><mn>u(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=u '(x)</p><p> Ableitung von v(x) &mdash;&gt; <math><mfrac><mrow>
+      <mn>v(a)</mn><mo>-</mo><mn>v(x)</mn><mo>)</mo></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=v '(x)</p><p>Ableitung von f(x) &mdash;&gt; <math><mfrac><mrow><mn>f(a)</mn><mo>-</mo><mn>f(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow>
+ </mfrac><mo>=</mo><mfrac><mrow><mfrac><mrow><mn>u(a)</mn></mrow><mrow><mn>v(a)</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u(x)</mn></mrow><mrow><mn>v(x)</mn></mrow></mfrac></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo>
+ 
+ <mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac>
+ 
+ <mo>=</mo>
+ 
+ <mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac>
+ <mo>=</mo>
+ 
+ <mfrac><mrow><mo>(</mo><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn><mo>)</mo><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac>
+ 
+ <mo>=</mo>
+ 
+ <mfrac>
+  <mrow>
+          <mfrac>
+           <mrow> <mn>u(a)</mn><mo>·</mo><mn>v(x)</mn></mrow>
+           <mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow>
+          </mfrac>
+              <mo>-</mo>
+         <mfrac>
+         <mrow>
+           <mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow>
+           <mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow>
+         </mfrac>
+     </mrow>
+     <mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn>
+    </mrow>
+  </mfrac>
+ 
+ </math>=f  '(x)</p>
+      <p>f '(x) soll von der obigen komplexen Form zu <math><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math> umgeformt werden, damit die Ableitung von f=<math><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> &mdash;&gt; f '<math><mo>=</mo><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math> bewiesen ist. Dafür wird 0 eingesetzt: -u(x)·v(x)+u(x)·v(x)=0 (<span class="extra">Da 0 das <em><mark>neutrale Element</mark></em> der Addition ist, kann man es immer einfügen. 1 ist das neutrale Element der Multiplikation!</span>)</p>
+      
+      <p><math><mfrac><mrow><mn>f(a)</mn><mo>-</mo><mn>f(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn><mo>+</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac>
+ </mfrac><mo>=</mo><mfrac><mrow><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo>
+ 
+ <mfrac><mrow><mfrac><mrow><mo>(</mo><mn>u(a)</mn><mo>-</mo><mn>u(x)</mn><mo>)</mo><mo>·</mo><mn>v(x)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mo>(</mo><mn>v(x)</mn><mo>-</mo><mn>v(a)</mn><mo>)</mo><mo>·</mo><mn>u(x)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac>
+
+ </math></p>
+   </blockquote>
+  
+  <h5 id="ke"><a href="#o"><span class="headref">∧</span>　Kettenregel</a></h5>
+  
     <h3 id="ex"><a href="#o"><span class="headref">∧</span>　Extrempunkte</a></h3>
    
     
