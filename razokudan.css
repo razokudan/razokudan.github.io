@@ -27,14 +27,17 @@ address{
       font-weight: bold;
 }
 
-.math, blockquote{
+blockquote{
       font-family: "Bitstream Charter", serif;
       font-size: 100%;
       color: hsl(120 100% 10%);
       margin: 30px;
 }
 
-
+.maru {
+      font-size: 65%;
+      
+}
 
 /*
 
@@ -134,6 +137,15 @@ img {
 
 math {
       font-family: "Bitstream Charter", serif;
+}
+
+blockquote {
+      /*text-indent: 2em;*/
+      line-height: 1.8em;
+      /*background-color: hsla(120 100% 30% / 0.2);*/
+      padding: 15px;
+    
+
 }
 
 .bsp {
