@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no">
   <title>Kurvendiskussion - razokudan</title>
+  <link rel="icon" type="image/ico" href="logo.ico">
   <style>
   @import "razokudan.css";
   </style>
@@ -40,8 +41,8 @@
        <li><ol><li><a href="#po"><span class="headref">∨</span>　Potenzregel</a></li>
         <li><a href="#su"><span class="headref">∨</span>　Summenregel</a></li>
         <li><a href="#pr"><span class="headref">∨</span>　Produktregel</a></li>
-        <li><a href="#ke"><span class="headref">∨</span>　Kettenregel</a></li><li><a href="#qu"><span class="headref">∨</span>　Quotientenregel</a></li
-        ></ol></li></ol></li>
+        <li><a href="#qu"><span class="headref">∨</span>　Quotientenregel</a></li
+        ><li><a href="#ke"><span class="headref">∨</span>　Kettenregel</a></li></ol></li></ol></li>
         <li><a href="#ex"><span class="headref">∨</span>　Extrempunkte</a></li>
       </ol>
     
@@ -51,10 +52,10 @@
       
       <p>Der <em><mark><dfn>Wertebereich</dfn></mark></em> sind <em><mark>alle Zahlen y</mark></em>, also alle möglichen <em><mark>Lösungswerte</mark></em> der Funktion von x.</p>
       
-      <blockquote>f(x)= <math><mfrac><mn>1</mn> <mn>x</mn></mfrac> </math><br> &mdash;&gt;  D<sub>f</sub>=&#8477;⁠\{0} <br>und W<sub>f</sub>=&#8477;⁠</blockquote>
+      <blockquote><p>f(x)= <math><mfrac><mn>1</mn> <mn>x</mn></mfrac> </math><br> &mdash;&gt;  D<sub>f</sub>=&#8477;⁠\{0} <br>und W<sub>f</sub>=&#8477;⁠</p></blockquote>
      
-     <p>Das heißt: <ol><li>der Definitionsbereich der Funktion f sind die reellen Zahlen außer 0. Da 0 im Nenner ungültig ist.</li><br>
-      <li>der Wertebereich sind alle reellen Zahlen, da ein Bruch immer eine reelle Zahl ist.</li></ol></p>   
+     <p>Das heißt:</p><p>der Definitionsbereich der Funktion f sind die reellen Zahlen außer 0. Da 0 im Nenner ungültig ist.</p>
+      <p>der Wertebereich sind alle reellen Zahlen, da ein Bruch immer eine reelle Zahl ist.</p>   
       
   
       <blockquote class="bsp"><p>D<sub>f</sub>=x<br>W<sub>f</sub>=y</p></blockquote>
@@ -63,7 +64,7 @@
     
       <p>Das <dfn>Unendlichkeitsverhalten</dfn> beschreibt wie sich die Funktion bei "unendlichen Werten" für x verhält.</p>
       
-      <blockquote>Für x &mdash;&gt; ±∞ geht f(x) &mdash;&gt; ±∞</blockquote>
+      <blockquote><p>Für x &mdash;&gt; ±∞ geht f(x) &mdash;&gt; ±∞</p></blockquote>
     
     
     
@@ -174,61 +175,33 @@
       </math></p>
      <p>Einsetzen:</p>
       
-      <p>  <math> <mfrac> <mrow> <mn>v(a)</mn>  <mo>-</mo>     <mn>v(x)</mn>     </mrow>   <mrow>  <mn>a</mn><mo>-</mo><mn>x</mn>   </mrow>   </mfrac></math>=v '(x)</p> <p><math><mfrac>  <mrow>   <mn>u(a)</mn>   <mo>-</mo> <mn>u(x)</mn> </mrow> <mrow><mn>a</mn><mo>-</mo><mn>x</mn>  </mrow> </mfrac></math>=u '(x)</p>  <p><math> <mfrac> <mrow><mn>f(a)</mn><mo>-</mo><mn>f(x)</mn></mrow> <mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=v '(x)·u(a)+v(x)·u '(x)=v '·u+v·u '=u '·v+u·v '=f '</p><p><pre><math><mtext>Mit </mtext> <mmultiscripts><mn></mn><mprescripts /><mn>x&mdash;&gt;a</mn><mn>lim  </mn></mmultiscripts><mtext> werden alle x zu a somit ist (x) oder (a) nicht relevant.</mtext></math></pre></p>
+      <p>  <math> <mfrac> <mrow> <mn>v(a)</mn>  <mo>-</mo>     <mn>v(x)</mn>     </mrow>   <mrow>  <mn>a</mn><mo>-</mo><mn>x</mn>   </mrow>   </mfrac></math>=v '(x)</p> <p><math><mfrac>  <mrow>   <mn>u(a)</mn>   <mo>-</mo> <mn>u(x)</mn> </mrow> <mrow><mn>a</mn><mo>-</mo><mn>x</mn>  </mrow> </mfrac></math>=u '(x)</p>  <p><math> <mfrac> <mrow><mn>f(a)</mn><mo>-</mo><mn>f(x)</mn></mrow> <mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=v '(x)·u(a)+v(x)·u '(x)=v '·u+v·u '=u '·v+u·v '=f '</p><p><pre><math><mtext>Mit </mtext> <mmultiscripts><mn></mn><mprescripts /><mn>x&mdash;&gt;a</mn><mn>lim  </mn></mmultiscripts><mtext> werden alle x zu a somit ist (x) oder (a) nicht relevant.</mtext></math></pre>
       
       
     
+  </p></blockquote>
+  
+  
+  <h5 id="qu"><a href="#o"><span class="headref">∧</span>　Quotientenregel</a></h5>
+  
+  <blockquote class="bsp"><p>Die <dfn>Quotientenregel</dfn> lautet f=<math><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> &mdash;&gt; f '<math><mo>=</mo><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math>.</p></blockquote>
+  
+  <blockquote class="bsp"><p><mark>BEWEIS</mark> von f=<math><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> &mdash;&gt; f '<math><mo>=</mo><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math> über die Produktregel.</p>
+  
+  <p>
+  <math><mn>f</mn><mo>=</mo><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math><br> &lt;=&gt; <math><mn>u</mn><mo>=</mo><mn>f</mn><mo>·</mo><mn>v</mn> </math><br> &lt;=&gt; <math> <mn>u '</mn><mo>=</mo><mn>f '</mn><mo>·</mo><mn>v</mn><mo>+</mo><mn>f</mn><mo>·</mo><mn>v '</mn></math><br> &lt;=&gt; <math><mn>u '</mn><mo>-</mo><mn>f</mn><mo>·</mo><mn>v '</mn> <mo>=</mo><mn>f '</mn><mo>·</mo><mn>v</mn> </math><br> &lt;=&gt; <math> <mfrac><mrow><mn>u '</mn><mo>-</mo><mn>f</mn><mo>·</mo><mn>v '</mn></mrow><mrow><mn>v</mn></mrow></mfrac> <mo>=</mo><mn>f '</mn></math><br> <math><mn>f</mn><mo>=</mo><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> einsetzen:<math><mfrac><mrow><mn>u '</mn><mo>-</mo><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac><mo>·</mo><mn>v '</mn></mrow><mrow><mn>v</mn></mrow></mfrac> <mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt; <math><mfrac><mrow><mfrac><mrow><mn>u '</mn><mn>v</mn></mrow><mrow><mn>v</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac><mo>·</mo><mn>v '</mn></mrow><mrow><mn>v</mn></mrow></mfrac> <mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt; <math> <mfrac><mrow><mfrac><mrow><mn>u '</mn><mn>v</mn></mrow><mrow><mn>v</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u</mn><mn>v '</mn></mrow><mrow><mn>v</mn></mrow></mfrac></mrow><mrow><mn>v</mn></mrow></mfrac> <mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt; <math><mo>(</mo><mfrac><mrow><mn>u '</mn><mn>v</mn></mrow><mrow><mn>v</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u</mn><mn>v '</mn></mrow><mrow><mn>v</mn></mrow></mfrac><mo>)</mo><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>v</mn></mrow></mfrac> <mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt; <math>
+  <mfrac><mrow><mn>u '</mn><mn>v</mn><mn>1</mn></mrow><mrow><mn>vv</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u</mn><mn>v '</mn><mn>1</mn></mrow><mrow><mn>vv</mn></mrow></mfrac><mo>=</mo><mn>f '</mn> </math><br> &lt;=&gt; <math>
+  
+  
+  
+  <mfrac><mrow><mn>u '</mn><mn>v</mn><mo>-</mo><mn>u</mn><mn>v '</mn></mrow><mrow><mn>vv</mn></mrow></mfrac><mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt;  <math><mfrac><mrow><mn>u '</mn><mn>v</mn><mo>-</mo><mn>u</mn><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>f '</mn> </math>
+  </p>
+  
+  
   </blockquote>
   
-  <!--
-  <p>Deren Beweis ich noch nicht ganz verstanden habe...</p>
   
-   <blockquote class="bsp"><p><mark>BEWEIS</mark> von   f=<math><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> &mdash;&gt; f '<math><mo>=</mo><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math>.</p>
-   <p>f(x) &mdash;&gt; <math><mfrac><mrow><mn>u(x)</mn></mrow><mrow><mn>v(x)</mn></mrow></mfrac></math>=f '(x)<math><mo>=</mo><mfrac><mrow><mn>u '(x)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v '(x)</mn></mrow><mrow><msup><mn>v(x)</mn><mn>2</mn></msup></mrow></mfrac></math></p>
-   <p>  Ableitung von u(x) &mdash;&gt; <math><mfrac><mrow>
-      <mn>u(a)</mn><mo>-</mo><mn>u(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=u '(x)</p><p> Ableitung von v(x) &mdash;&gt; <math><mfrac><mrow>
-      <mn>v(a)</mn><mo>-</mo><mn>v(x)</mn><mo>)</mo></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></math>=v '(x)</p><p>Ableitung von f(x) &mdash;&gt; <math><mfrac><mrow><mn>f(a)</mn><mo>-</mo><mn>f(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow>
- </mfrac><mo>=</mo><mfrac><mrow><mfrac><mrow><mn>u(a)</mn></mrow><mrow><mn>v(a)</mn></mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u(x)</mn></mrow><mrow><mn>v(x)</mn></mrow></mfrac></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo>
- 
- <mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac>
- 
- <mo>=</mo>
- 
- <mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac>
- <mo>=</mo>
- 
- <mfrac><mrow><mo>(</mo><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn><mo>)</mo><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac>
- 
- <mo>=</mo>
- 
- <mfrac>
-  <mrow>
-          <mfrac>
-           <mrow> <mn>u(a)</mn><mo>·</mo><mn>v(x)</mn></mrow>
-           <mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow>
-          </mfrac>
-              <mo>-</mo>
-         <mfrac>
-         <mrow>
-           <mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow>
-           <mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow>
-         </mfrac>
-     </mrow>
-     <mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn>
-    </mrow>
-  </mfrac>
- 
- </math>=f  '(x)</p>
-      <p>f '(x) soll von der obigen komplexen Form zu <math><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math> umgeformt werden, damit die Ableitung von f=<math><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> &mdash;&gt; f '<math><mo>=</mo><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math> bewiesen ist. Dafür wird 0 eingesetzt: -u(x)·v(x)+u(x)·v(x)=0 (<span class="extra">Da 0 das <em><mark>neutrale Element</mark></em> der Addition ist, kann man es immer einfügen. 1 ist das neutrale Element der Multiplikation!</span>)</p>
-      
-      <p><math><mfrac><mrow><mn>f(a)</mn><mo>-</mo><mn>f(x)</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn><mo>+</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac>
- </mfrac><mo>=</mo><mfrac><mrow><mfrac><mrow><mn>u(a)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>u(x)</mn><mo>·</mo><mn>v(x)</mn><mo>-</mo><mn>u(x)</mn><mo>·</mo><mn>v(a)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac><mo>=</mo>
- 
- <mfrac><mrow><mfrac><mrow><mo>(</mo><mn>u(a)</mn><mo>-</mo><mn>u(x)</mn><mo>)</mo><mo>·</mo><mn>v(x)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mo>(</mo><mn>v(x)</mn><mo>-</mo><mn>v(a)</mn><mo>)</mo><mo>·</mo><mn>u(x)</mn></mrow><mrow><mn>v(a)</mn><mo>·</mo><mn>v(x)</mn></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>a</mn><mo>-</mo><mn>x</mn></mrow></mfrac>
-
- </math></p>
-   </blockquote>
-  -->
+  
   <h5 id="ke"><a href="#o"><span class="headref">∧</span>　Kettenregel</a></h5>
   
       <p>Die <dfn>Kettenregel</dfn> teilt komplexere Funktionen in mehrere Multiplikationen unter, um die Funktion ableitbar zu machen.</p>
@@ -248,23 +221,7 @@
       </blockquote>
   
   
-  <h5 id="qu"><a href="#o"><span class="headref">∧</span>　Quotientenregel</a></h5>
   
-  <blockquote class="bsp"><p>Die <dfn>Quotientenregel</dfn> lautet f=<math><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> &mdash;&gt; f '<math><mo>=</mo><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math>.</p></blockquote>
-  
-  <blockquote class="bsp"><p><mark>BEWEIS</mark> von f=<math><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> &mdash;&gt; f '<math><mo>=</mo><mfrac><mrow><mn>u '</mn><mo>·</mo><mn>v</mn><mo>-</mo><mn>u</mn><mo>·</mo><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac></math>.</p>
-  
-  <p>
-  <math><mn>f</mn><mo>=</mo><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math><br> &lt;=&gt; <math><mn>u</mn><mo>=</mo><mn>f</mn><mo>·</mo><mn>v</mn> </math><br> &lt;=&gt; <math> <mn>u '</mn><mo>=</mo><mn>f '</mn><mo>·</mo><mn>v</mn><mo>+</mo><mn>f</mn><mo>·</mo><mn>v '</mn></math><br> &lt;=&gt; <math><mn>u '</mn><mo>-</mo><mn>f</mn><mo>·</mo><mn>v '</mn> <mo>=</mo><mn>f '</mn><mo>·</mo><mn>v</mn> </math><br> &lt;=&gt; <math> <mfrac><mrow><mn>u '</mn><mo>-</mo><mn>f</mn><mo>·</mo><mn>v '</mn></mrow><mrow>v</mrow></mfrac> <mo>=</mo><mn>f '</mn><mo></math><br> <math><mn>f</mn><mo>=</mo><mfrac><mrow><mn>u</mn></mrow><mrow><mn>v</mn></mrow></mfrac></math> einsetzen:<math><mfrac><mrow><mn>u '</mn><mo>-</mo><mfrac><mrow><mn>u</mn></mrow><mrow>v</mrow></mfrac><mo>·</mo><mn>v '</mn></mrow><mrow>v</mrow></mfrac> <mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt; <math><mfrac><mrow><mfrac><mrow><mn>u '</mn><mn>v</mn></mrow><mrow>v</mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u</mn></mrow><mrow>v</mrow></mfrac><mo>·</mo><mn>v '</mn></mrow><mrow>v</mrow></mfrac> <mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt; <math> <mfrac><mrow><mfrac><mrow><mn>u '</mn><mn>v</mn></mrow><mrow>v</mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u</mn><mn>v '</mn></mrow><mrow>v</mrow></mfrac></mrow><mrow>v</mrow></mfrac> <mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt; <math><mo>(</mo><mfrac><mrow><mn>u '</mn><mn>v</mn></mrow><mrow>v</mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u</mn><mn>v '</mn></mrow><mrow>v</mrow></mfrac><mo>)</mo><mo>·</mo><mfrac><mrow>1</mrow><mrow>v</mrow></mfrac></mrow> <mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt; <math>
-  <mfrac><mrow><mn>u '</mn><mn>v</mn><mn>1</mn></mrow><mrow>vv</mrow></mfrac><mo>-</mo><mfrac><mrow><mn>u</mn><mn>v '</mn><mn>1</mn></mrow><mrow>vv</mrow></mfrac><mo>=</mo><mn>f '</mn> </math><br> &lt;=&gt; <math>
-  
-  
-  
-  <mfrac><mrow><mn>u '</mn><mn>v</mn><mo>-</mo><mn>u</mn><mn>v '</mn></mrow><mrow>vv</mrow></mfrac><mo>=</mo><mn>f '</mn> </math> <br>&lt;=&gt;  <math><mfrac><mrow><mn>u '</mn><mn>v</mn><mo>-</mo><mn>u</mn><mn>v '</mn></mrow><mrow><msup><mn>v</mn><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>f '</mn> </math>
-  </p>
-  
-  
-  </blockquote>
   
     <h3 id="ex"><a href="#o"><span class="headref">∧</span>　Extrempunkte</a></h3>
    
