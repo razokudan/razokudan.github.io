@@ -22,6 +22,10 @@ a, address{
       color: hsl(120 100% 20%);
 }
 
+a:hover{
+      color: hsl(120 100% 40%);
+}
+
 address{
       font-family: "Noto Sans Japanese", sans-serif;
       font-weight: bold;
