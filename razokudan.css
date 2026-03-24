@@ -121,11 +121,12 @@ dfn, em {
 }
 
 table, th, td {
-      Border: 3px solid hsl(120 100% 20%);
-
+      border: 3px solid hsl(120 100% 20%);
+     
 }
 th {
       color: hsl(120 100% 10%);
+      
 }
 li {
       list-style-type: none;
@@ -177,14 +178,14 @@ blockquote {
       font-size: 80%;
       
 }
-
+/*
 .box {
       border: 3px solid hsl(120 100% 20%);
 }
 .box td {
       border: none;
 }
-
+*/
 .textlink {
       color: hsl(120 100% 10%);
       font-variant: small-caps;
