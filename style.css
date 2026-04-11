@@ -1,0 +1,82 @@
+html {
+      font-size: 100%;
+}
+
+body {
+      font-family: "Bitstream Charter", serif;
+      background-color: hsla(120 100% 30% / 0.3);
+      color: hsl(120 100% 10%);
+      text-align: justify;
+     
+
+}
+
+article {
+      padding-right: 150px;
+      padding-left: 150px;
+}
+
+a, address{
+      text-decoration: none;
+      font-style: normal;
+      color: hsl(120 100% 20%);
+}
+
+a:hover{
+      color: hsl(120 100% 40%);
+}
+
+address{
+      font-family: "Noto Sans Japanese", sans-serif;
+      font-weight: bold;
+}
+
+
+h1 {
+      font-family: "Noto Sans Japanese", sans-serif;
+      text-indent: 1em;
+      color: hsl(120 100% 20%);
+      
+}
+
+
+
+footer {
+      font-family: "Noto Sans Japanese", sans-serif;
+      color: hsl(120 100% 20%);
+      font-size: 90%;
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 4px;
+      border: 10px solid hsl(120 100% 30%);
+      background: hsla(120 100% 30% / 0.4);
+      margin-top: 30px;
+      line-height: 2.5;      
+}    
+
+dfn, em {
+      font-style: normal;
+}
+
+
+mark {
+      background: hsla(120 100% 30% / 0.4);
+      color: hsl(120 100% 10%);
+    
+}
+img {
+      float: right;
+      margin-right: -40px;
+      margin-left: 10px;
+      border: 3px solid hsl(120 100% 20%);
+}
+.banner {
+      margin: 0;
+      border: none;
+}
+
+.header {
+      display: flex;
+      justify-content: center;
+}
+
